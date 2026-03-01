@@ -1,10 +1,6 @@
 # Core
 
-
-# 🚀 Systems Core
-
 ### Low-Level Systems Engineering Portfolio (20 Projects)
-
 ---
 
 <p align="center">
