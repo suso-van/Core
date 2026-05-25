@@ -1,177 +1,135 @@
-# Core
-
-### Low-Level Systems Engineering Portfolio (20 Projects)
----
+# Core 
+### Low-Level Systems • Runtime Design • Storage Engines • Distributed Infrastructure
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Domain-Systems%20Engineering-blue" />
-  <img src="https://img.shields.io/badge/Focus-Operating%20Systems-critical" />
-  <img src="https://img.shields.io/badge/Focus-Compilers-important" />
-  <img src="https://img.shields.io/badge/Focus-Distributed%20Systems-success" />
-  <img src="https://img.shields.io/badge/Focus-Storage%20Engines-orange" />
+  <img src="https://img.shields.io/badge/Focus-Systems%20Engineering-blue" />
+  <img src="https://img.shields.io/badge/Domain-Operating%20Systems-critical" />
+  <img src="https://img.shields.io/badge/Domain-DBMS-success" />
+  <img src="https://img.shields.io/badge/Domain-Compiler%20Design-orange" />
+  <img src="https://img.shields.io/badge/Domain-Distributed%20Systems-purple" />
 </p>
 
 ---
 
-
 <p align="center">
-  <img src="https://img.shields.io/badge/C-Low%20Level-blue?logo=c" />
-  <img src="https://img.shields.io/badge/C++-Systems-blue?logo=c%2B%2B" />
-  <img src="https://img.shields.io/badge/Python-Prototype%20%26%20Testing-yellow?logo=python" />
-  <img src="https://img.shields.io/badge/GitHub%20Actions-CI-black?logo=githubactions" />
+  <img src="https://img.shields.io/badge/C-Low%20Level%20Systems-blue?logo=c" />
+  <img src="https://img.shields.io/badge/C++-Performance%20Engineering-blue?logo=c%2B%2B" />
+  <img src="https://img.shields.io/badge/Python-Prototyping%20%26%20Testing-yellow?logo=python" />
   <img src="https://img.shields.io/badge/Linux-Development-black?logo=linux" />
+  <img src="https://img.shields.io/badge/Git-GitHub-orange?logo=git" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-CI-black?logo=githubactions" />
 </p>
 
 ---
 
 ## 📌 Overview
 
-**Systems Core** is a structured implementation of 20 serious systems projects designed to build deep expertise in:
+This repository is a structured systems engineering initiative focused on implementing low-level computer science concepts through real systems projects.
 
-* Operating Systems
-* Runtime Systems
-* Memory Management
-* Transactional Storage Engines
-* Compiler Construction
-* Networking Protocols
-* Distributed Consensus
+The portfolio covers:
 
-This portfolio emphasizes:
+- Operating Systems
+- Runtime Systems
+- Memory Management
+- Database Internals
+- Compiler Construction
+- Networking Protocols
+- Distributed Systems
+- High-Performance Infrastructure
 
-* Implementation from scratch
-* Internal architecture clarity
-* Performance awareness
-* Correctness and invariants
-* Engineering discipline
+The objective is to move beyond tutorial-level projects and develop implementation-level understanding of modern systems architecture.
 
 ---
 
-# 🎯 Objective
+# 🎯 Goals
 
-The goal of this initiative is to develop production-grade understanding of core computer systems by building infrastructure-level components rather than application-layer software.
-
-This aligns with:
-
-* GATE CS preparation
-* Infrastructure / systems engineering roles
-* Research-oriented systems development
-* High-performance backend architecture
+- Build deep systems intuition through implementation
+- Strengthen core CS fundamentals for GATE CS
+- Explore runtime and infrastructure engineering
+- Understand storage and compiler internals
+- Develop performance-oriented engineering habits
+- Study correctness, reliability, and fault tolerance
 
 ---
 
-# 🧠 Project Domains (20 Systems)
+# 🧠 Core 20 Systems Projects
 
 ---
 
-# 1️⃣ Operating Systems & Runtime (6 Projects)
+# 🖥 Operating Systems
 
-Focus: Process control, scheduling, memory, execution models
-
-### Projects
-
-1. Educational OS Kernel
-2. Process Scheduler Simulator
-3. Memory Allocator (malloc/free implementation)
-4. User-Level Thread Library
-5. Virtual Memory Simulator
-6. Garbage Collector (Mark–Sweep)
-
-### Concepts Covered
-
-* Process scheduling policies
-* Heap management
-* Fragmentation handling
-* Context switching
-* Stack frames
-* Page abstraction
-* Stop-the-world GC
+| # | Project | Topics |
+|---|---|---|
+| 1 | Educational OS Kernel ✅ | Scheduling, Memory Management, Concurrency |
+| 2 | Memory Allocator | malloc/free, Fragmentation, Free Lists |
+| 3 | User-Level Thread Library | Context Switching, Cooperative Scheduling |
+| 4 | Virtual Memory Simulator | Paging, TLB, Page Replacement |
 
 ---
 
-# 2️⃣ Storage & Database Internals (5 Projects)
+# 🗄 DBMS & Storage Systems
 
-Focus: Durability, indexing, recovery
-
-### Projects
-
-7. Mini Transactional Storage Engine
-8. Standalone B+ Tree
-9. Write-Ahead Logging (WAL) System
-10. Query Planner & Optimizer
-11. Columnar Storage Engine
-
-### Concepts Covered
-
-* ACID properties
-* Log Sequence Numbers (LSN)
-* Crash recovery (Redo/Undo)
-* Page layout
-* Cost-based optimization
-* Index node splitting/merging
+| # | Project | Topics |
+|---|---|---|
+| 5 | Transactional Storage Engine ✅ | WAL, Crash Recovery, Transactions |
+| 6 | B+ Tree Storage Engine | Indexing, Page Layout, Persistence |
+| 7 | Query Planner & Optimizer | Logical Plans, Cost Estimation |
+| 8 | Columnar Storage Engine | Column Storage, Compression |
 
 ---
 
-# 3️⃣ Compiler & Language Engineering (5 Projects)
+# ⚙️ Compiler Design & Runtime Systems
 
-Focus: Compilation pipeline, runtime systems
-
-### Projects
-
-12. MiniLang Compiler
-13. Intermediate Representation (IR) Builder
-14. SSA Transformation Engine
-15. Register-Based Virtual Machine
-16. JIT Compiler Prototype
-
-### Concepts Covered
-
-* Lexical analysis
-* Recursive descent parsing
-* Abstract Syntax Trees
-* Semantic validation
-* Bytecode generation
-* Call stack management
-* Control flow lowering
-* SSA construction
-* Runtime execution
+| # | Project | Topics |
+|---|---|---|
+| 9 | MiniLang Compiler ✅ | Lexer, Parser, AST, Bytecode VM |
+| 10 | Intermediate Representation Builder | CFG, IR Generation |
+| 11 | SSA Transformation Engine | Dominance Analysis, Phi Nodes |
+| 12 | Register-Based Virtual Machine | Runtime Execution, Instruction Dispatch |
 
 ---
 
-# 4️⃣ Networking & Distributed Systems (4 Projects)
+# 🌐 Networking & Distributed Systems
 
-Focus: Reliability, replication, fault tolerance
-
-### Projects
-
-17. TCP-like Reliable Transport Protocol
-18. Distributed Key-Value Store
-19. Raft Consensus Implementation
-20. Load Balancer with Health Checking
-
-### Concepts Covered
-
-* Sliding window protocols
-* Retransmission logic
-* Replication strategies
-* Leader election
-* Log replication
-* Fault simulation
-* Distributed consistency
+| # | Project | Topics |
+|---|---|---|
+| 13 | TCP-like Reliable Protocol | Sliding Window, ACKs, Retransmission |
+| 14 | Distributed Key-Value Store | Replication, Persistence, RPC |
+| 15 | Raft Consensus Algorithm | Leader Election, Replicated Logs |
+| 16 | Load Balancer with Health Checking | Failover, Routing, Health Probes |
 
 ---
 
-# 🏗 Architecture Overview
+# ⚡ High-Performance Systems
+
+| # | Project | Topics |
+|---|---|---|
+| 17 | Order Matching Engine ✅ | Low-Latency Matching, Priority Queues |
+| 18 | External Sorting Engine | Disk-Aware Sorting, Merge Strategies |
 
 ---
 
-## Compiler → Runtime Stack
+# 🧠 Theory & Runtime Foundations
 
-```
+| # | Project | Topics |
+|---|---|---|
+| 19 | Garbage Collector | Mark-Sweep GC, Heap Traversal |
+| 20 | Regex Engine / Automata Simulator | DFA/NFA, Regex Parsing |
+
+---
+
+# 🏗 Architecture Focus Areas
+
+---
+
+## Runtime Systems
+
+```text
 Source Code
     ↓
-Lexer → Parser → AST → Semantic Analyzer
+Lexer → Parser → AST
     ↓
-IR / Bytecode Generator
+IR / Bytecode
     ↓
 Virtual Machine
     ↓
@@ -182,27 +140,27 @@ Garbage Collector
 
 ---
 
-## Transactional Storage Pipeline
+## Storage Systems
 
-```
+```text
 Client
   ↓
-Transaction Manager
+Transaction Layer
   ↓
-Write-Ahead Log (WAL)
+Write-Ahead Log
   ↓
 B+ Tree Index
   ↓
 Page Manager
   ↓
-Disk Layer
+Disk
 ```
 
 ---
 
-## Distributed Infrastructure Stack
+## Distributed Systems
 
-```
+```text
 Client
   ↓
 Load Balancer
@@ -211,81 +169,92 @@ Distributed KV Store
   ↓
 Raft Consensus
   ↓
-Replicated Log
+Replicated Persistent Log
 ```
 
 ---
 
-# 📊 Engineering Principles
+# 📚 Subject Coverage
 
-Each project follows:
-
-* Clear subsystem boundaries
-* Explicit invariants
-* Complexity analysis
-* Performance measurement
-* Failure-mode documentation
-* Reproducible builds
-
-Where applicable:
-
-* Throughput benchmarks
-* Latency analysis
-* Memory profiling
-* Crash recovery simulation
+| Subject | Covered Through |
+|---|---|
+| Operating Systems | Projects 1–4 |
+| DBMS | Projects 5–8 |
+| Compiler Design | Projects 9–12 |
+| Computer Networks | Project 13 |
+| Distributed Systems | Projects 14–16 |
+| Algorithms & Performance | Projects 17–18 |
+| Theory of Computation | Project 20 |
+| Runtime Systems | Project 19 |
 
 ---
 
 # 🛠 Technology Stack
 
-| Layer                   | Technology     |
-| ----------------------- | -------------- |
-| Low-Level Systems       | C / C++        |
-| Prototyping & Testing   | Python         |
-| Build Systems           | Make / CMake   |
-| CI                      | GitHub Actions |
-| Development Environment | Linux          |
+| Category | Technologies |
+|---|---|
+| Systems Programming | C, C++ |
+| Prototyping & Testing | Python |
+| Build Systems | Make, CMake |
+| Version Control | Git, GitHub |
+| Development Environment | Linux |
+
+---
+
+# 📊 Engineering Principles
+
+Each project emphasizes:
+
+- Clear subsystem boundaries
+- Explicit invariants
+- Performance measurement
+- Benchmarking and profiling
+- Failure-mode analysis
+- Modular architecture
+- Reproducible builds
 
 ---
 
 # 📈 Benchmarking & Evaluation
 
-Each major subsystem includes:
+Projects may include:
 
-* Micro-benchmarks
-* Stress testing
-* Performance comparison
-* Memory utilization metrics
+- Throughput measurement
+- Latency analysis
+- Memory profiling
+- Stress testing
+- Crash recovery simulations
 
-Performance and correctness are treated as first-class concerns.
-
----
-
-# 🔬 Learning Philosophy
-
-This portfolio avoids:
-
-* Tutorial-style implementations
-* Surface-level abstractions
-* Framework-heavy systems
-
-Instead, it emphasizes:
-
-* Manual memory control
-* Explicit runtime design
-* Low-level concurrency reasoning
-* Deterministic system behavior
+Performance and correctness are treated as first-class engineering concerns.
 
 ---
 
-# 🚀 Long-Term Vision
+# 🚀 Long-Term Direction
 
-The objective of Systems Core is to build deep expertise in:
+This portfolio is focused on building deep understanding of:
 
-* Runtime system architecture
-* Transaction durability models
-* Distributed fault tolerance
-* Compiler backend optimization
-* Infrastructure scalability
+- Runtime architecture
+- Transaction durability
+- Compiler internals
+- Distributed fault tolerance
+- Systems scalability
+- Infrastructure engineering
 
-This repository represents a structured progression toward advanced systems engineering competence.
+The emphasis is depth, correctness, and implementation-level systems knowledge.
+
+---
+
+# 📌 Current Status
+
+### Completed / Active Projects
+
+- ✅ Educational OS Kernel
+- ✅ MiniLang Compiler
+- ✅ Order Matching Engine
+- ✅ Transactional Storage Engine
+
+---
+
+# 📜 License
+
+MIT License
